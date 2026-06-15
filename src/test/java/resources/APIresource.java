@@ -16,7 +16,7 @@ public enum APIresource {
 	
 	
 	public String GetResource() 
-	{
+	{ System.out.println("2nd project commit");
 		return resource;
 	}
  

@@ -35,7 +35,9 @@ public class Utils {
 	
 	public static String getGlobalValues(String key) throws IOException
 	{   System.out.println("2nd project commit");
-		System.out.println("4th commit without pull latest code");
+	    System.out.println("3rd project commit");
+	    System.out.println("4th commit without pull latest code");
+
 		Properties prop = new Properties();
 		FileInputStream fis = new FileInputStream("C:\\Users\\PTC2LFX\\Desktop\\eclipse project\\APIFramework\\src\\test\\java\\resources\\global.properties");
 		prop.load(fis);
